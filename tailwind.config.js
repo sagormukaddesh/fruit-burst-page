@@ -1,14 +1,8 @@
-{
-  "extends": [
-    "development"
-  ],
-  "hints": {
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ],
-    "axe/forms": "off"
-  }
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
