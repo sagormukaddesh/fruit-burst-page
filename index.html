@@ -16,24 +16,52 @@
     <!-- header section start -->
     <header class="container mx-auto">
         <!-- navbar -->
-        <div class="navbar mb-10 bg-red-400 sm:p-3 lg:p-5 rounded-full">
-          <div class="flex-1 lg:pl-5">
-              <ul class="flex text-white lg:gap-5">
-                  <li><a>Homepage</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>About</a></li>
+        <div class="navbar  bg-base-100 lg:bg-red-400 rounded-full">
+         
+          <div class=" flex-1 mx-auto text-center">
+            <div class="hidden lg:block">
+              <ul class="flex gap-3 font-5">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Shop</li>
+              
+              
+            </ul>
+          </div>
+            <div class="navbar-start">
+              <div class="dropdown lg:hidden">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  
                 </ul>
+              </div>
+            </div>
           </div>
-          <div class="flex-1">
+
+          <div class=" mx-auto justify-end text-end">
+            <div class="navbar-center flex items-center">
               <img src="./images/logo.png" alt="">
-            <a class="btn btn-ghost normal-case text-white lg:text-5xl font-bold">Fruit Burst</a>
+              <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+            </div>
           </div>
-          <div class="flex-none gap-2">
-            <div class="form-control">
-              <input type="text" placeholder="Search hare " class="input rounded-full input-bordered w-24 mr-10 md:w-auto"/>
-             </div>
+
+          <div class="navbar-end text-end hidden lg:block">
+
+            
+            <button class="btn invisible md:visible lg:visible btn-default pl-40 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+            
+              
+         
           </div>
         </div>
+
    </header>
 
    <main class="container mx-auto">
@@ -292,7 +320,7 @@
     <!-- Why Choose Us -->
     <section>
       <div class="mx-20 text-center my-10">
-        <h2 class="text-4xl font-bold">Why Choose Us</h2>
+        <h2 class="text-5xl mb-5 font-bold">Why Choose Us</h2>
         <p>
           Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.
         </p>
