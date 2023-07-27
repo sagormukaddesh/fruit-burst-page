@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--  -->
+   
+<!-- Open the modal using ID.showModal() method -->
+<!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+<dialog id="my_modal_1" class="modal">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+<!--  -->
+<div class="card w-43 bg-base-100  shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="./images/fruit6.png" alt="Shoes" class="rounded-full" />
+    </figure>
+    <div class="card-body text-black items-center text-center">
+      <h2 class="card-title">12.90$ - 18.85$</h2>
+      <p>Apples</p>
+      <div class="rating rating-2 gap-1">
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+        <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" checked />
+        <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+        <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+        <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+      </div>
+      <p class="text-[#F85559] ">Details</p>
+        
+      </div>
+    </div>
+    
+    <!--  -->
+    <button class="btn" onclick="my_modal_2.showModal()">details</button>
+    <dialog id="my_modal_2" class="modal">
+      <form method="dialog" class="modal-box">
+       <div>
+        <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="Shoes" class="rounded-full" />
+          </figure>
+          <div class="card-body text-black items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Apples</p>
+            <div class="rating rating-2 gap-1">
+              <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-orange-400" checked />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+              <input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+            </div>
+            <p class="text-[#F85559] ">Details</p>
+              
+            </div>
+       </div>
+       
+          <button class="btn">Close</button>
+        </div>
+      </form>
+    </dialog>
+
+
+
+
+</body>
+</html>
